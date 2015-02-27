@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HusseyCoding_CookiesForComments>
+            <version>1.0.0</version>
+        </HusseyCoding_CookiesForComments>
+    </modules>
+    <global>
+        <blocks>
+            <cookiesforcomments>
+                <class>HusseyCoding_CookiesForComments_Block</class>
+            </cookiesforcomments>
+        </blocks>
+        <helpers>
+            <cookiesforcomments>
+                <class>HusseyCoding_CookiesForComments_Helper</class>
+            </cookiesforcomments>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <cookiesforcomments>
+                    <file>cookiesforcomments.xml</file>
+                </cookiesforcomments>
+            </updates>
+        </layout>
+        <routers>
+            <contacts>
+                <args>
+                    <modules>
+                        <HusseyCoding_CookiesForComments before="Mage_Contacts">HusseyCoding_CookiesForComments</HusseyCoding_CookiesForComments>
+                    </modules>
+                </args>
+            </contacts>
+        </routers>
+    </frontend>
+</config>

@@ -1,0 +1,5 @@
+app/code/community/HusseyCoding app/code/community/HusseyCoding
+app/design/frontend/base/default/layout/* app/design/frontend/base/default/layout/
+app/design/frontend/base/default/template/cookiesforcomments app/design/frontend/base/default/template/cookiesforcomments
+app/etc/modules/* app/etc/modules/
+skin/frontend/base/default/images/* skin/frontend/base/default/images/

@@ -1,0 +1,16 @@
+{
+    "name":"husseycoding/cookiesforcomments",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/husseycoding/cookiesforcomments",
+    "description":"Stop spam contact form submissions with this Magento extension based on the popular WordPress plugin.",
+    "authors":[
+        {
+            "name":"Jonathan Hussey",
+            "email":"hussey@husseycoding.co.uk"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
